@@ -81,7 +81,7 @@ The main features of the application are:
 
 ## Links
   - Deploy on Heroku: https://ruanl-corelab-crud-cars.vercel.app
-  - Repository: https://github.com/Lucasdfg07/Blog_Lucas_Fernandes
+  - Repository: https://github.com/RuanL-Dev?tab=repositories
     - In case of sensitive bugs, please contactme at 
       ruanlopes21@gmail.com directly. I really appreciate your time looking at my project :) 
 
