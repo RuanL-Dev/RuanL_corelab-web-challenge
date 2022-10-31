@@ -79,22 +79,20 @@ function HomePage() {
     router.push('/newcar')
   }
 
+  const carIncludes = (data) => {
+    return data.toUpperCase().includes(car.toUpperCase())
+  }
+
   const search = (data) => {
     return data?.filter(
       (post) =>
-        post.carModel?.toUpperCase().includes(car) ||
-        post.carBrand?.toLowerCase().includes(car) ||
-        post.carBrand?.toUpperCase().includes(car) ||
-        post.carColor?.toLowerCase().includes(car) ||
-        post.carColor?.toUpperCase().includes(car) ||
-        post.carYear?.toLowerCase().includes(car) ||
-        post.carYear?.toUpperCase().includes(car) ||
-        post.carPlate?.toLowerCase().includes(car) ||
-        post.carPlate?.toUpperCase().includes(car) ||
-        post.carPrice?.toLowerCase().includes(car) ||
-        post.carPrice?.toUpperCase().includes(car) ||
-        post.carDescription?.toLowerCase().includes(car) ||
-        post.carDescription?.toUpperCase().includes(car)
+        carIncludes(post.carModel) ||
+        carIncludes(post.carBrand) ||
+        carIncludes(post.carColor) ||
+        carIncludes(post.carYear) ||
+        carIncludes(post.carPlate) ||
+        carIncludes(post.carPrice) ||
+        carIncludes(post.carDescription)
     )
   }
   return (
