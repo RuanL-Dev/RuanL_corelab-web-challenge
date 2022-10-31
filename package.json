@@ -23,6 +23,9 @@
     "@hookform/resolvers": "^2.9.10",
     "axios": "^0.26.0",
     "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "link-react": "^3.0.0",
+    "moment": "^2.29.1",
     "mongoose": "^6.2.4",
     "next": "^12.1.6",
     "next-connect": "^0.12.2",
@@ -30,7 +33,9 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-hook-form": "^7.38.0",
-    "styled-components": "^5.3.5"
+    "react-icons": "^4.6.0",
+    "styled-components": "^5.3.5",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.7",

@@ -64,7 +64,7 @@ const transformColor = (color) => {
     rosa: 'rgb(255, 100, 255)',
     verde: 'rgb(000 139 000)',
     prata: 'silver',
-    azul: 'rgb(000 000 205)',
+    azul: 'rgb(065 105 225)',
     preto: 'rgb(0, 0, 0, 0.80)',
     preta: 'rgb(0, 0, 0, 0.80)',
     amarelo: 'rgb(215, 220, 128)',
